@@ -18,6 +18,16 @@ We developed a probabilistic, agent-based model to simulate:
 
 # Geeting Started
 
+```bash
+root
+├── Simulation_code
+├── Model_simulation
+└── Experiments
+    ├── ELISA
+    └── Flow
+        └── Raw_readout
+```
+
 ## Clone the repository:
 ```bash
 git clone https://github.com/signalingsystemslab/GC_evolution_model.git
@@ -29,7 +39,7 @@ It is recommended to use a virtual environment
 ```bash
 python3 - m venv venv
 source venv/bin/activate
-pip install - r requirements.txt
+pip install - r Simulation_code/requirements.txt
 ```
 
 ## Run a basic simulation:
